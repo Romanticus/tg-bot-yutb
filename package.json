@@ -1,0 +1,24 @@
+{
+  "name": "tg-bot-yutb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon --watch src --ext js --exec node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "nanoid": "^5.1.6",
+    "p-limit": "^7.1.1",
+    "telegraf": "^4.16.3",
+    "ytdl-core": "^4.11.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
