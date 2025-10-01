@@ -12,9 +12,13 @@
   "type": "module",
   "description": "",
   "dependencies": {
+    "@distube/ytdl-core": "^4.16.12",
     "dotenv": "^17.2.3",
+    "ffmpeg-static": "^5.2.0",
+    "fluent-ffmpeg": "^2.1.2",
     "nanoid": "^5.1.6",
     "p-limit": "^7.1.1",
+    "yt-dlp-wrap": "^2.3.12",
     "telegraf": "^4.16.3",
     "ytdl-core": "^4.11.5"
   },
