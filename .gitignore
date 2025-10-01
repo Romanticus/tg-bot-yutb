@@ -11,7 +11,7 @@ node_modules
 
 # Optional npm cache directory
 .npm
-
+*-player-script.js
 # Optional REPL history
 .DS_Store
 .idea
